@@ -1,0 +1,342 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #E0E5EB;
+    width: 100%;
+    height: 100vh;
+}
+
+.my_works_container {
+
+    display: flex;
+    max-width: 1300px;
+    margin-left: auto;
+    gap: 55px;
+}
+
+.circle {
+
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #EC563D;
+}
+
+.my_works_left h1 {
+
+    font-size: 96px;
+    margin-top: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.my_works_left p {
+
+    font-size: 20px;
+    margin-top: 27px;
+    line-height: 1.6;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.my_works_left button {
+
+    padding: 10px 38px;
+    color: white;
+    background-color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 45px;
+    letter-spacing: 3px;
+}
+
+.my_works_left {
+    padding: 30px, 40px;
+    margin-top: 125px;
+    max-width: 515px;
+}
+
+.my_works_right {
+
+    background-image: url('https://assets.nicepagecdn.com/d2cc3eaa/324069/images/OT12YY1-min.png');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+
+}
+
+.experience_container {
+
+    background-color: #EC563D;
+    padding-top: 72px;
+    padding-bottom: 80px;
+    
+
+}
+
+.experience_container h2{
+
+    font-size: 65px;
+    color: white;
+    font-family: 'Alatsi', sans-serif;
+    text-align: center;
+
+}
+
+.flex_container{
+
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: start;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.flex_card h3{
+
+    font-size: 30px;
+    font-family: 'Alatsi', sans-serif;
+    color: white;
+}
+
+.flex_card ul{
+
+    color: white;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    list-style: none;
+    margin-top: 40px;
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+   
+
+}
+.flex_card ul li{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   
+}
+.flex_card{
+
+    justify-content: center;
+   
+}
+.works_container{
+    background-color: #E0E5EB;
+    padding-top: 100px;
+    padding-bottom: 230px;
+    text-align: center;
+
+}
+.works_container h2{
+
+    font-size: 65px;
+    font-family: 'Alatsi', sans-serif;
+
+}
+.works_container p{
+
+    max-width: 717px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+.contact_container {
+
+    background-color: #292E33;
+    padding-top: 90px;
+    padding-bottom: 100px;
+
+}
+
+.flex_contact {
+
+    display: flex;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 90px;
+
+
+}
+
+.flex_left_contact h5 {
+
+    font-size: 18px;
+    color: #E0E5EB;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 5px;
+
+}
+
+.flex_left_contact h2 {
+
+    margin-top: 20px;
+    font-size: 65px;
+    color: #fff;
+    font-family: 'Alatsi', sans-serif;
+
+}
+
+.flex_left_contact p {
+
+    margin: 20px 0px;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    max-width: 480px;
+
+}
+
+.flex_right_contact input {
+
+    background-color: white;
+    padding: 10px 12px;
+    width: 530px;
+    height: 48px;
+
+}
+.flex_right_contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex_right_contact textarea{
+
+    background-color: white;
+    padding: 10px 12px;
+    width: 530px;
+
+}
+.flex_right_contact button{
+
+    padding: 10px;
+    background: none;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    border: 2px solid white;
+
+}
+
+.social_icons{
+    display: flex;
+    gap: 23px;
+    color: white;
+    font-size: 26px;
+    margin-top: 60px;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+footer{
+
+    background-color: #333333;
+    padding-top: 55px;
+    padding-bottom: 160px;
+
+}
+footer p{
+
+    text-align: center;
+    margin-top: 49px;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    
+
+}
+
+
+.grid_design_container{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(365px, 1fr));
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -150px;
+    gap: 20px;
+    padding-bottom: 145px;
+   
+}
+.grid_card_design{
+    background-image: url('https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8c593f782d1654b09c0aa7b3/jhjh688.jpg');
+    position: relative;
+   
+}
+.card1{
+    background-image: url('https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8c593f782d1654b09c0aa7b3/jhjh688.jpg');
+    width: 366px;
+    height: 380px;
+}
+.card2{
+    background-image: url('https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8c593f782d1654b09c0aa7b3/jhjh688.jpg');
+    width: 366px;
+    height: 380px;
+}
+.card3{
+    background-image: url('https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8c593f782d1654b09c0aa7b3/jhjh688.jpg');
+    width: 366px;
+    height: 380px;
+}
+.card4{
+    background-image: url('https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8c593f782d1654b09c0aa7b3/jhjh688.jpg');
+    width: 366px;
+    height: 380px;
+}
+.card5{
+    background-image: url('https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8c593f782d1654b09c0aa7b3/jhjh688.jpg');
+    width: 366px;
+    height: 380px;
+}
+.card6{
+    background-image: url('https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8c593f782d1654b09c0aa7b3/jhjh688.jpg');
+    width: 366px;
+    height: 380px;
+}
+.grid_design_container img{
+
+    width: 366px;
+    height: 380px;
+    filter: contrast(.8);
+
+    
+}
+
+.shadow{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.49));
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.grid_design_container h6{
+
+    position: absolute;
+    left: 97px;
+    bottom: 45px;
+    font-size: 24px;
+    font-family: 'Alatsi', sans-serif;
+    color: white;
+
+
+}
